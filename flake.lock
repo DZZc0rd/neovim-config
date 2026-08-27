@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "matugen-nvim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1787496511,
+        "narHash": "sha256-NViBmwAFaTOAXBQ8hTayX0E2dlBIznjaODpulAfOgOo=",
+        "owner": "senal-d-a-gunaratna",
+        "repo": "matugen.nvim",
+        "rev": "d77b4bcc87c8ad5e66ec680d4fc0fafbda903b51",
+        "type": "github"
+      },
+      "original": {
+        "owner": "senal-d-a-gunaratna",
+        "repo": "matugen.nvim",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1780243769,
+        "narHash": "sha256-x5UQuRsH3MqI0U9afaXSNqzTPSeZlRLvFAav2Ux1pNw=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "331800de5053fcebacf6813adb5db9c9dca22a0c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "matugen-nvim": "matugen-nvim",
+        "nixpkgs": "nixpkgs",
+        "wrappers": "wrappers"
+      }
+    },
+    "wrappers": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1787579952,
+        "narHash": "sha256-Dn6IPaLyltx8hBTyC4hgNWDb7T7WHRYUG6wWh6KBHXA=",
+        "owner": "birdeehub",
+        "repo": "nix-wrapper-modules",
+        "rev": "b56e973dd2bd62244b44d6542fb52182bc3a3cda",
+        "type": "github"
+      },
+      "original": {
+        "owner": "birdeehub",
+        "repo": "nix-wrapper-modules",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
