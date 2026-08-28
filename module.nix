@@ -7,6 +7,7 @@ inputs: {
   imports = [wlib.wrapperModules.neovim];
 
   settings.config_directory = ./.;
+  settings.aliases = ["vi"];
 
   specs.general = with pkgs.vimPlugins; [
     nvim-lspconfig
