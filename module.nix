@@ -30,11 +30,11 @@ inputs: {
     mini-icons
   ];
 
-  specs.nix = with pkgs; [
+  specs.matugen = config.nvim-lib.mkPlugin "matugen-nvim" inputs.matugen-nvim;
+
+  runtimePkgs = with pkgs; [
     nixd
     alejandra
     statix
   ];
-
-  specs.matugen = config.nvim-lib.mkPlugin "matugen-nvim" inputs.matugen-nvim;
 }
