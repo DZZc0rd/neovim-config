@@ -35,7 +35,7 @@
     devShells = forEachSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      neovim = pkgs.mkShellNoCc {
+      neovim = pkgs.mkShellNoCC {
         packages = with pkgs; [
           lua-language-server
           stylua
