@@ -11,12 +11,7 @@ inputs: {
 
   specs.general = with pkgs.vimPlugins; [
     nvim-lspconfig
-    nvim-cmp
-    cmp-buffer
-    cmp-path
-    cmp-cmdline
-    cmp-nvim-lsp
-    cmp_luasnip
+    blink-cmp
     nvim-treesitter.withAllGrammars
     nvim-autopairs
     alpha-nvim
