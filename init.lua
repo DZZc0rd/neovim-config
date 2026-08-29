@@ -14,3 +14,5 @@ require("plugins.notify")
 require("plugins.trouble")
 require("plugins.alpha")
 require("plugins.matugen")
+
+require("mini.icons").setup({})
