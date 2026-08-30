@@ -11,4 +11,4 @@ keymap.set("n", "<leader>ff", "<cmd>FzfLua files<cr>", { desc = "Find file" })
 keymap.set("n", "<leader>fb", "<cmd>FzfLua buffers<cr>", { desc = "Find buffers" })
 keymap.set("n", "<leader>fs", "<cmd>FzfLua live_grep<cr>", { desc = "Find string" })
 
-keymap.set("n", "<leader>x", "<cmd>Trouble diagnostics toggle<cr>", { desc = "Diagnostics (Trouble)" })
+keymap.set("n", "<leader>x", "<cmd>FzfLua diagnostics_workspace<cr>", { desc = "Diagnostics" })

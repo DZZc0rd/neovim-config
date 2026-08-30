@@ -19,7 +19,6 @@ inputs: {
     fzf-lua
     lualine-nvim
     noice-nvim
-    trouble-nvim
     nvim-notify
     mini-icons
   ];

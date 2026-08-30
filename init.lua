@@ -10,7 +10,6 @@ require("plugins.treesitter")
 require("plugins.autopairs")
 require("plugins.blink")
 require("plugins.notify")
-require("plugins.trouble")
 require("plugins.alpha")
 require("plugins.matugen")
 
