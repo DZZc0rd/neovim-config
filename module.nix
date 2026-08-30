@@ -20,7 +20,6 @@ inputs: {
     lualine-nvim
     noice-nvim
     trouble-nvim
-    which-key-nvim
     nvim-notify
     mini-icons
   ];
