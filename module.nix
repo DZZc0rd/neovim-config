@@ -18,7 +18,6 @@ inputs: {
     fyler-nvim
     fzf-lua
     lualine-nvim
-    noice-nvim
     nvim-notify
     mini-icons
   ];
