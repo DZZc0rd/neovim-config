@@ -1,14 +1,17 @@
+-- no-plugin modules
 require("config.options")
 require("config.keymaps")
 require("config.lsp")
 
+-- yes-plugin modules
 require("plugins.fzf")
 require("plugins.lualine")
-require("plugins.treesitter")
-require("plugins.autopairs")
 require("plugins.blink")
-require("plugins.notify")
 require("plugins.alpha")
 require("plugins.matugen")
 
-require("mini.icons").setup({})
+-- plugins with no configuration
+require("nvim-treesitter").setup()
+require("nvim-autopairs").setup()
+require("notify").setup()
+require("mini.icons").setup()
