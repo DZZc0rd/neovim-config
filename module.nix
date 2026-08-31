@@ -15,7 +15,6 @@ inputs: {
     nvim-treesitter.withAllGrammars
     nvim-autopairs
     alpha-nvim
-    fyler-nvim
     fzf-lua
     lualine-nvim
     nvim-notify

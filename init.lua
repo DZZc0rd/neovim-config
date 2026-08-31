@@ -2,7 +2,6 @@ require("config.options")
 require("config.keymaps")
 require("config.lsp")
 
-require("plugins.fyler")
 require("plugins.fzf")
 require("plugins.lualine")
 require("plugins.treesitter")
