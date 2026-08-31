@@ -2,10 +2,9 @@ local alpha = require("alpha")
 local dashboard = require("alpha.themes.dashboard")
 
 dashboard.section.buttons.val = {
-    dashboard.button("e", "  Open explorer", "<cmd>Fyler<cr>"),
-    dashboard.button("f", "  Find file", "<cmd>FzfLua files<cr>"),
-    dashboard.button("s", "  Find string", "<cmd>FzfLua live_grep<cr>"),
-    dashboard.button("q", "󰈆  Quit", "<cmd>q<cr>"),
+    dashboard.button("SPC f", "  Find file"),
+    dashboard.button("SPC t", "  Find text"),
+    dashboard.button("q", "󰈆  Quit", "ZZ"),
 }
 
 dashboard.section.footer.val = require("alpha.fortune")()
