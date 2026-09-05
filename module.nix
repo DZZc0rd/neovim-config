@@ -22,6 +22,10 @@ inputs: {
     friendly-snippets
   ];
 
+  hosts.python3.nvim-host.enable = false;
+  hosts.node.nvim-host.enable = false;
+  hosts.ruby.nvim-host.enable = false;
+
   specs.matugen = config.nvim-lib.mkPlugin "matugen-nvim" inputs.matugen-nvim;
 
   runtimePkgs = with pkgs; [
