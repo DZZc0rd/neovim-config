@@ -1,26 +1,36 @@
-local vim = vim
+local o = vim.o
 
-vim.opt.number = true
-vim.opt.relativenumber = true
+o.number = true
+o.relativenumber = true
+o.scrolloff = 12
 
-vim.opt.tabstop = 4
-vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
-vim.opt.autoindent = true
-vim.opt.smartindent = true
+o.incsearch = true
+o.ignorecase = true
+o.smartcase = true
 
-vim.opt.swapfile = false
-vim.opt.backup = false
-vim.opt.undofile = true
+o.confirm = true
+o.swapfile = false
+o.backup = false
+o.writebackup = false
+o.undofile = true
 
-vim.opt.incsearch = true
+o.tabstop = 4
+o.softtabstop = 4
+o.shiftwidth = 4
+o.expandtab = true
+o.autoindent = true
+o.smartindent = true
 
-vim.opt.termguicolors = true
-vim.opt.background = "dark"
-vim.opt.cursorline = true
+o.splitbelow = true
+o.splitright = true
+o.splitkeep = "screen"
+
+o.signcolumn = "yes"
+o.cmdheight = 0
+o.showmatch = true
+o.cursorline = true
+
+o.termguicolors = true
+o.background = "dark"
 
 vim.opt.clipboard:append("unnamedplus")
-
-vim.opt.exrc = true
-vim.opt.secure = true
