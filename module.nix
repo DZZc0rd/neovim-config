@@ -19,6 +19,7 @@ inputs: {
     lualine-nvim
     nvim-notify
     mini-icons
+    friendly-snippets
   ];
 
   specs.matugen = config.nvim-lib.mkPlugin "matugen-nvim" inputs.matugen-nvim;
